@@ -1,12 +1,12 @@
 MUI
-  mui-components
-  mui-data-grid
+  mui-components - for quick UI
+  mui-data-grid - for data-tables
   mui-icons
 
-React-Router v6
-react-pro-sidebar
-formik
-yup
+React-Router v6 - for routing
+react-pro-sidebar - for quick sidebar
+formik & yup - forms and validation
+ 
 
 Fullcalendar
   daygrid

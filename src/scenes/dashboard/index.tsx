@@ -1,4 +1,8 @@
 import React from 'react';
+import { Box } from '@mui/system';
+
+import { Header } from '../../components';
+
 
 export const Dashboard = () => <div>Dashboard</div>;
 
