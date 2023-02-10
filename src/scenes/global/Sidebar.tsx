@@ -1,3 +1,3 @@
-export const Sidebar = () => {
-  return <div>Sidebar</div>;
-};
+import React from 'react';
+
+export const Sidebar = () => <div>Sidebar</div>;
