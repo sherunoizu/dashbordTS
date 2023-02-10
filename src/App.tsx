@@ -1,7 +1,10 @@
 import React from 'react';
+
+import { ThemeProvider, CssBaseline, Theme } from '@mui/material';
+
 import { ColorModeContext, useMode } from './theme';
-import { ThemeProvider, ScopedCssBaseline } from '@mui/material';
-import { Theme } from '@mui/system';
+
+import { Topbar } from './scenes/global/Topbar';
 
 const App = () => {
   const [theme, colorMode] = useMode();
@@ -9,9 +12,11 @@ const App = () => {
   return (
     <ColorModeContext.Provider value={colorMode as IColorMode}>
       <ThemeProvider theme={theme as Partial<Theme>}>
-        <ScopedCssBaseline />
+        <CssBaseline />
         <div className='app'>
-          <main className='content'></main>
+          <main className='content'>
+            <Topbar />
+          </main>
         </div>
       </ThemeProvider>
     </ColorModeContext.Provider>
