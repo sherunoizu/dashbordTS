@@ -1,7 +1,7 @@
 MUI
   mui-components - for quick UI
   mui-data-grid - for data-tables
-  mui-icons
+  mui-icons - for nice icons
 
 React-Router v6 - for routing
 react-pro-sidebar - for quick sidebar
