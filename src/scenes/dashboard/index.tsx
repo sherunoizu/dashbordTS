@@ -11,13 +11,7 @@ export const Dashboard = () => (
   </Box>
 );
 
-
-
-
-
 export const Bar = () => <div>Bar</div>;
-
-export const Form = () => <div>Form</div>;
 
 export const Line = () => <div>Line</div>;
 
