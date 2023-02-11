@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 
 import FullCalendar from '@fullcalendar/react';
-import { EventApi, DateSelectArg, DateInput, formatDate } from '@fullcalendar/core';
+import { EventApi, DateSelectArg, DateInput, formatDate, EventClickArg } from '@fullcalendar/core';
 import dayGridPlugin from '@fullcalendar/daygrid';
 import timeGridPlugin from '@fullcalendar/timegrid';
 import interactionPlagin from '@fullcalendar/interaction';
@@ -21,6 +21,7 @@ export const Calendar = () => {
   const [currentEvents, setCurrentEvents] = useState(init);
 
   const handleDateClick = (selected: DateSelectArg) => {
+    // eslint-disable-next-line
     const title = prompt('Please enter a new title for event');
     const calendarApi = selected.view.calendar;
     calendarApi.unselect();
@@ -36,7 +37,8 @@ export const Calendar = () => {
     }
   };
 
-  const handleEventClick = (selected: any) => {
+  const handleEventClick = (selected: EventClickArg) => {
+    // eslint-disable-next-line
     if (window.confirm(`Are you sure you want to delete the event '${selected.event.title}' ?`)) {
       selected.event.remove();
     }

@@ -17,6 +17,7 @@ export const Dashboard = () => {
   const colors = tokens(theme.palette.mode);
 
   const onDownloadClickHandler = () => {
+    // eslint-disable-next-line
     alert('Feature in progress! Hold on...');
   };
 

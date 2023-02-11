@@ -31,6 +31,7 @@ export const Form = () => {
   const isNonMobile = useMediaQuery('(min-width:600px');
 
   const handleFormSubmit = (values: IFormData) => {
+    // eslint-disable-next-line
     console.log(values);
   };
 

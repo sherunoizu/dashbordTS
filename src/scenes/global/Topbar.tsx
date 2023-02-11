@@ -17,6 +17,7 @@ export const Topbar = () => {
   const colorMode = useContext(ColorModeContext);
 
   const onUnrealisedFeatureClick = () => {
+    // eslint-disable-next-line
     alert('Feature in progress! Hold on...');
   };
 
