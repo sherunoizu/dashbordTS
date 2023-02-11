@@ -6,9 +6,20 @@ import { Routes, Route } from 'react-router-dom';
 import { ColorModeContext, useMode } from './theme';
 
 import { Topbar, Sidebar } from './scenes/global';
-import { Bar, Line, Pie, Geography } from './scenes/dashboard';
 
-import { Dashboard, Team, Contacts, Invoices, Form, Calendar, FAQ } from './scenes';
+import {
+  Dashboard,
+  Team,
+  Contacts,
+  Invoices,
+  Form,
+  Calendar,
+  FAQ,
+  Bar,
+  Pie,
+  Line,
+  Geography
+} from './scenes';
 
 const App = () => {
   const [theme, colorMode] = useMode();
@@ -27,12 +38,12 @@ const App = () => {
               <Route path='/contacts' element={<Contacts />} />
               <Route path='/invoices' element={<Invoices />} />
               <Route path='/form' element={<Form />} />
+              <Route path='/calendar' element={<Calendar />} />
+              <Route path='/faq' element={<FAQ />} />
               <Route path='/bar' element={<Bar />} />
               <Route path='/pie' element={<Pie />} />
               <Route path='/line' element={<Line />} />
-              <Route path='/faq' element={<FAQ />} />
               <Route path='/geography' element={<Geography />} />
-              <Route path='/calendar' element={<Calendar />} />
             </Routes>
           </main>
         </div>

@@ -9,10 +9,8 @@ formik & yup - forms and validation
  
 
 Fullcalendar - for quick calendar
-  daygrid
-  timegrid
-  list
+  
 
-Nivo
+Nivo - for dataviz charts components
   pie
   bar
