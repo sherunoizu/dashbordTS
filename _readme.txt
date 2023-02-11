@@ -8,7 +8,7 @@ react-pro-sidebar - for quick sidebar
 formik & yup - forms and validation
  
 
-Fullcalendar
+Fullcalendar - for quick calendar
   daygrid
   timegrid
   list

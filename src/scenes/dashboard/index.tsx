@@ -21,4 +21,4 @@ export const FAQ = () => <div>FAQ</div>;
 
 export const Geography = () => <div>Geography</div>;
 
-export const Calendar = () => <div>Calendar</div>;
+
