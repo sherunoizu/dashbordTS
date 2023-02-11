@@ -16,6 +16,10 @@ export const Dashboard = () => {
   const theme = useTheme();
   const colors = tokens(theme.palette.mode);
 
+  const onDownloadClickHandler = () => {
+    alert('Feature in progress! Hold on...');
+  };
+
   return (
     <Box m='20px'>
       {/* HEADER */}
@@ -24,6 +28,7 @@ export const Dashboard = () => {
 
         <Box>
           <Button
+            onClick={onDownloadClickHandler}
             sx={{
               backgroundColor: colors.blueAccent[700],
               color: colors.grey[100],
