@@ -17,8 +17,4 @@ export const Line = () => <div>Line</div>;
 
 export const Pie = () => <div>Pie</div>;
 
-export const FAQ = () => <div>FAQ</div>;
-
 export const Geography = () => <div>Geography</div>;
-
-

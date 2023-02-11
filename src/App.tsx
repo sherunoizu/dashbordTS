@@ -6,9 +6,9 @@ import { Routes, Route } from 'react-router-dom';
 import { ColorModeContext, useMode } from './theme';
 
 import { Topbar, Sidebar } from './scenes/global';
-import { Bar, Line, Pie, FAQ, Geography } from './scenes/dashboard';
+import { Bar, Line, Pie, Geography } from './scenes/dashboard';
 
-import { Dashboard, Team, Contacts, Invoices, Form, Calendar } from './scenes';
+import { Dashboard, Team, Contacts, Invoices, Form, Calendar, FAQ } from './scenes';
 
 const App = () => {
   const [theme, colorMode] = useMode();

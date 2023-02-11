@@ -4,3 +4,4 @@ export { Contacts } from './contacts';
 export { Invoices } from './invoices';
 export { Form } from './form';
 export { Calendar } from './calendar';
+export { FAQ } from './faq';
